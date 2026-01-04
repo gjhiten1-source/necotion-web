@@ -6,20 +6,9 @@ const nextConfig = {
     unoptimized: true,
   },
 
-  // Reemplaza experimental.serverComponentsExternalPackages
   serverExternalPackages: ['mongodb', 'mongoose'],
 
-  webpack(config, { dev }) {
-    if (dev) {
-      // Reduce CPU/memory from file watching (ideal para OneDrive / Windows)
-      config.watchOptions = {
-        poll: 2000,
-        aggregateTimeout: 300,
-        ignored: ['**/node_modules'],
-      }
-    }
-    return config
-  },
+  turbopack: {},
 
   onDemandEntries: {
     maxInactiveAge: 10000,
