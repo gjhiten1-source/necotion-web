@@ -9,8 +9,8 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           
           {/* Logo o nombre */}
-          <div className="text-xl font-bold">
-            <Link href="/">Necotion</Link>
+          <div className="text-xl font-bold font-mondapick tracking-wider">
+            <Link href="/">NECOTION</Link>
           </div>
 
           {/* Links */}
