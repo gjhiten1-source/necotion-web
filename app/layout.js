@@ -9,7 +9,7 @@ export const metadata = {
   description: 'Transform your content creation with AI-driven automation, expert freelance teams, and full transparency.',
   icons: {
     icon: "/icon.png",
-    apple: "apple-icon.png"
+    apple: "/apple-icon.png",
   }
 }
 
